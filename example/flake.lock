@@ -36,6 +36,24 @@
         "type": "github"
       }
     },
+    "naersk": {
+      "inputs": {
+        "nixpkgs": "nixpkgs_2"
+      },
+      "locked": {
+        "lastModified": 1662220400,
+        "narHash": "sha256-9o2OGQqu4xyLZP9K6kNe1pTHnyPz0Wr3raGYnr9AIgY=",
+        "owner": "nix-community",
+        "repo": "naersk",
+        "rev": "6944160c19cb591eb85bbf9b2f2768a935623ed3",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nix-community",
+        "repo": "naersk",
+        "type": "github"
+      }
+    },
     "nixpkgs": {
       "locked": {
         "lastModified": 1660574513,
@@ -50,6 +68,20 @@
         "ref": "nixos-unstable",
         "repo": "nixpkgs",
         "type": "github"
+      }
+    },
+    "nixpkgs_2": {
+      "locked": {
+        "lastModified": 1666424192,
+        "narHash": "sha256-rb/a7Kg9s31jqkvdOQHFrUc5ig5kB+O2ZKB8mjU2kW8=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "4f8287f3d597c73b0d706cfad028c2d51821f64d",
+        "type": "github"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
       }
     },
     "root": {
@@ -92,6 +124,7 @@
     "sway-nix": {
       "inputs": {
         "fuel-nix": "fuel-nix",
+        "naersk": "naersk",
         "nixpkgs": [
           "sway-nix",
           "fuel-nix",
@@ -105,12 +138,12 @@
       },
       "locked": {
         "lastModified": 0,
-        "narHash": "sha256-8sr4KPfR6o1JPQhyZMqU+PqpCme3kxTt/BmYg2oC/3k=",
-        "path": "/nix/store/mbknbic27j1ndhla5gh8yrp06fl0fb3n-source",
+        "narHash": "sha256-r70MpQHvZmmJDC9NXUQxrz6qRJaj4V6YLp2IoGUYArE=",
+        "path": "/nix/store/zyxblp4xsscgcpvkrdq8zajkyx10asvz-source",
         "type": "path"
       },
       "original": {
-        "path": "/nix/store/mbknbic27j1ndhla5gh8yrp06fl0fb3n-source",
+        "path": "/nix/store/zyxblp4xsscgcpvkrdq8zajkyx10asvz-source",
         "type": "path"
       }
     },
