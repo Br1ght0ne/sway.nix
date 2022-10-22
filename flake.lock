@@ -1,0 +1,125 @@
+{
+  "nodes": {
+    "flake-utils": {
+      "locked": {
+        "lastModified": 1656928814,
+        "narHash": "sha256-RIFfgBuKz6Hp89yRr7+NR5tzIAbn52h8vT6vXkYjZoM=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "7e2a3b3dfd9af950a856d66b0a7d01e3c18aa249",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "fuel-nix": {
+      "inputs": {
+        "nixpkgs": "nixpkgs",
+        "rust-overlay": "rust-overlay",
+        "sway-vim-src": "sway-vim-src",
+        "utils": "utils"
+      },
+      "locked": {
+        "lastModified": 1666346646,
+        "narHash": "sha256-L2y5Kj28KhW9HzdvG+M3b1yhV+iwpPjPr6pHPejHsrk=",
+        "owner": "FuelLabs",
+        "repo": "fuel.nix",
+        "rev": "78bec2417ab016191bcbbfb8ea0066a61ea80bc3",
+        "type": "github"
+      },
+      "original": {
+        "owner": "FuelLabs",
+        "repo": "fuel.nix",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1660574513,
+        "narHash": "sha256-nkMQ1TKIIAYIVbbUzjxfjPn3H1zZFW20TrHUFAjwvNU=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "af9e00071d0971eb292fd5abef334e66eda3cb69",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "fuel-nix": "fuel-nix",
+        "nixpkgs": [
+          "fuel-nix",
+          "nixpkgs"
+        ],
+        "utils": [
+          "fuel-nix",
+          "utils"
+        ]
+      }
+    },
+    "rust-overlay": {
+      "inputs": {
+        "flake-utils": "flake-utils",
+        "nixpkgs": [
+          "fuel-nix",
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1663902145,
+        "narHash": "sha256-wuDqTDcD+VtGOFyzrvsALZRw5MkCNPj7rPX6DKt6Pzo=",
+        "owner": "oxalica",
+        "repo": "rust-overlay",
+        "rev": "9e319dd18f7beadab4daaf2426466d4023c1d26f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "oxalica",
+        "ref": "master",
+        "repo": "rust-overlay",
+        "type": "github"
+      }
+    },
+    "sway-vim-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1636665970,
+        "narHash": "sha256-dk8YCP09aDcuFKxP1iAdWbmQHh+P8wmPLjYyDTdujz0=",
+        "owner": "fuellabs",
+        "repo": "sway.vim",
+        "rev": "2f9e8714413dc668c94b358efbb3d282e4873edb",
+        "type": "github"
+      },
+      "original": {
+        "owner": "fuellabs",
+        "repo": "sway.vim",
+        "type": "github"
+      }
+    },
+    "utils": {
+      "locked": {
+        "lastModified": 1659877975,
+        "narHash": "sha256-zllb8aq3YO3h8B/U0/J1WBgAL8EX5yWf5pMj3G0NAmc=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "c0e246b9b83f637f4681389ecabcb2681b4f3af0",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
